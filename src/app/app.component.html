@@ -1,8 +1,11 @@
 <div class="ui container">
     <div class="ui secondary pointing menu">
-        <ng-container *ngFor="let path of paths">
-            <a routerLink="/{{ path }}" routerLinkActive="active" class="item">{{ path | titlecase }}</a>
-        </ng-container>
+            <a *ngFor="let path of paths" 
+                routerLink="/{{ path }}" 
+                routerLinkActive="active" 
+                class="item">
+                {{ path | titlecase }}
+            </a>
     </div>
     <div class="ui segment">
         <!-- find whatever component is being shown in the URl, and replace this element with that component -->

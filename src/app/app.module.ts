@@ -11,10 +11,10 @@ import { CollectionsModule } from './collections/collections.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    ElementsModule,
-    CollectionsModule
+    BrowserModule,
+    CollectionsModule,
+    ElementsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collections-home.component.css']
 })
 export class CollectionsHomeComponent implements OnInit {
-    paths = [ 'biography', 'companies', 'partners' ];
-
     data = [
         { name: 'Molly', age: 31, job: 'developer', employed: true },
         { name: 'Billy', age: 42, job: 'podmate', employed: false },

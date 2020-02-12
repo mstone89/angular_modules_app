@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    paths = ['elements', 'collections', 'views', 'modules'];
+    paths = ['elements', 'collections', 'views', 'mods'];
 }

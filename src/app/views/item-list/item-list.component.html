@@ -1,1 +1,16 @@
-<p>item-list works!</p>
+<div class="ui items">
+    <div *ngFor="let item of items" class="item">
+        <div class="image">
+            <img [src]="item.image" alt="{{ item.title }}">
+        </div>
+        <div class="content">
+            <a class="header">{{ item.title | titlecase }}</a>
+            <div class="meta">
+                <span>Description</span>
+            </div>
+            <div class="description">
+                <p>{{ item.description }}</p>
+            </div>
+        </div>
+    </div>
+</div>
